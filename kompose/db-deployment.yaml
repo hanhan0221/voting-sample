@@ -19,7 +19,7 @@ spec:
         io.kompose.service: db
     spec:
       containers:
-      - image: azuredevops101.azurecr.cn/postgres:9.4
+      - image: postgres:9.4
         name: db
       imagePullSecrets:
       - name: regcred
