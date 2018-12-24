@@ -17,6 +17,6 @@ services:
       context: ./worker
       dockerfile: Dockerfile
   redis:
-    image: azuredevops101.azurecr.cn/redis:alpine
+    image: redis
   db:
-    image: azuredevops101.azurecr.cn/postgres:9.4
+    image: postgres
