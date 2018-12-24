@@ -1,4 +1,4 @@
-FROM microsoft/dotnet
+FROM microsoft/dotnet-framework
 
 WORKDIR /code
 
