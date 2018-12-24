@@ -2,17 +2,17 @@ version: '3'
 
 services:
   vote:
-    image: voting/vote
+    image: voting-vote
     build:
       context: ./vote
       dockerfile: Dockerfile
   result:
-    image: voting/result
+    image: voting-result
     build:
       context: ./result
       dockerfile: Dockerfile
   worker:
-    image: voting/worker
+    image: voting-worker
     build:
       context: ./worker
       dockerfile: Dockerfile
