@@ -1,4 +1,4 @@
-FROM azuredevops101.azurecr.cn/node:5.11.0-slim
+FROM node
 
 WORKDIR /app
 
