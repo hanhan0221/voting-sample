@@ -2,17 +2,17 @@ version: '3'
 
 services:
   vote:
-    image: voting-vote
+    image: springsoft/voting-vote
     build:
       context: ./vote
       dockerfile: Dockerfile
   result:
-    image: voting-result
+    image: springsoft/voting-result
     build:
       context: ./result
       dockerfile: Dockerfile
   worker:
-    image: voting-worker
+    image: springsoft/voting-worker
     build:
       context: ./worker
       dockerfile: Dockerfile
